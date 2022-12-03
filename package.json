@@ -1,4 +1,4 @@
 {
   "name": "yarn-pnp-template",
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.3.0"
 }
