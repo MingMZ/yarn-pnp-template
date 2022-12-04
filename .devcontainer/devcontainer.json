@@ -14,17 +14,19 @@
 	// "postCreateCommand": "",
 
 	// Configure tool-specific properties.
-	// "customizations": {},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"arcanis.vscode-zipfs",
+				"dbaeumer.vscode-eslint",
+				"EditorConfig.EditorConfig",
+				"esbenp.prettier-vscode"
+			]
+		}
+	},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 
-	"containerUser": "node",
-	
-	"extensions": [
-		"arcanis.vscode-zipfs",
-		"dbaeumer.vscode-eslint",
-		"EditorConfig.EditorConfig",
-		"esbenp.prettier-vscode"
-	]
+	"containerUser": "node"
 }
